@@ -48,3 +48,13 @@ input:focus {
     color: cornsilk;
     margin-top: 10px;
 }
+.calcF {
+    display: none;
+
+}
+#input-calcFin {
+    display: none;
+}
+#input-calcFin:checked + .calc .calcF {
+    display: block;
+}
